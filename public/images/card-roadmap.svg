@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="24" fill="#0a0a0a"/>
+  <radialGradient id="g" cx="0.75" cy="0.2" r="0.8">
+    <stop offset="0" stop-color="#facc15" stop-opacity="0.2"/>
+    <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="640" height="360" rx="24" fill="url(#g)"/>
+  <g fill="#facc15">
+    <rect x="400" y="196" width="40" height="84"/>
+    <rect x="456" y="160" width="40" height="120"/>
+    <rect x="512" y="120" width="52" height="160"/>
+    <rect x="524" y="92" width="28" height="28"/>
+  </g>
+  <polyline points="400,240 480,196 528,220 600,120" fill="none" stroke="#0a0a0a" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="400,240 480,196 528,220 600,120" fill="none" stroke="#facc15" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="620,96 614,138 582,112" fill="#facc15"/>
+  <text x="44" y="196" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="bold" fill="#fafafa">ROADMAP</text>
+  <text x="44" y="236" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#facc15">Big Ambitions Wiki</text>
+</svg>

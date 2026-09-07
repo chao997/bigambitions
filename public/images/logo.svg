@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- solid pure black rounded app-icon background -->
+  <rect width="512" height="512" rx="110" ry="110" fill="#000000"/>
+
+  <!-- rising bar chart (left) merging into a skyscraper (right) -->
+  <rect x="96"  y="308" width="58" height="112" fill="#FACC15"/>
+  <rect x="180" y="254" width="58" height="166" fill="#FACC15"/>
+  <!-- skyscraper: shaft + setback crown + antenna -->
+  <rect x="264" y="198" width="76" height="222" fill="#FACC15"/>
+  <rect x="278" y="154" width="48" height="44"  fill="#FACC15"/>
+  <rect x="296" y="106" width="12" height="48"  fill="#FACC15"/>
+  <!-- ground base line -->
+  <rect x="88" y="418" width="268" height="20" fill="#FACC15"/>
+
+  <!-- rising profit arrow: black outline for separation, yellow stroke on top -->
+  <polyline points="96,352 214,254 284,298 404,146"
+            fill="none" stroke="#000000" stroke-width="54"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="96,352 214,254 284,298 404,146"
+            fill="none" stroke="#FACC15" stroke-width="26"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- upward arrowhead -->
+  <polygon points="452,94 443,159 390,116" fill="#FACC15"/>
+</svg>
