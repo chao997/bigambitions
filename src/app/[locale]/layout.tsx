@@ -9,6 +9,7 @@ import { SiteFooter } from '@/components/site-footer';
 import { BackdropFx } from '@/components/wiki-shell';
 import { themeInitScript } from '@/components/theme-toggle';
 import '../globals.css';
+import Script from 'next/script';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -59,6 +60,10 @@ export default async function RootLayout({
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="font-sans antialiased">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XD6XXW64NL" strategy="afterInteractive" />
+        <Script id="ga-init" strategy="afterInteractive">
+          {window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-XD6XXW64NL');}
+        </Script>
         <NextIntlClientProvider>
           <div className="flex min-h-screen flex-col bg-background text-foreground">
             <BackdropFx />
